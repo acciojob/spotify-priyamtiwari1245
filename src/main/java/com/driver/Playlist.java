@@ -2,22 +2,32 @@ package com.driver;
 
 import java.util.List;
 
-public class Playlist {
-    private String title;
+public class Artist {
+    private String name;
+    private int likes;
 
-    public Playlist(){
+    public Artist(){
 
     }
 
-    public Playlist(String title){
-        this.title = title;
+    public Artist(String name){
+        this.name = name;
+        this.likes = 0;
     }
 
-    public String getTitle() {
-        return title;
+    public String getName() {
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getLikes() {
+        return likes;
+    }
+
+    public void setLikes(int likes) {
+        this.likes = likes;
     }
 }
