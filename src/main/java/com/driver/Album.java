@@ -32,8 +32,3 @@ public class Album {
         this.releaseDate = releaseDate;
     }
 }
-
-    public void setReleaseDate(Date releaseDate) {
-        this.releaseDate = releaseDate;
-    }
-}
